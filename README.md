@@ -9,4 +9,5 @@
 -Your solution should not violate other SOLID principles.
 
 UML CLASS DIAGRAM
+![Blank diagram](https://github.com/AliyahAira/DependencyInver/assets/133284929/e1321586-d09d-4611-8240-6df29d367669)
 
