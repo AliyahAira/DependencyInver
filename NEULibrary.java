@@ -3,11 +3,11 @@ public class NEULibrary {
         Student student = new Student();
 
         // Borrowing a book
-        Resource book = new LibBook("The Great Gatsby");
+        Resource book = new LibBook("Java Programming 1");
         student.borrowResource(book);
 
         // Borrowing a journal
-        Resource journal = new Journals("Science Journal");
+        Resource journal = new Journals("Technology Journal");
         student.borrowResource(journal);
 
         // Accessing the internet
@@ -15,7 +15,7 @@ public class NEULibrary {
         student.borrowResource(internet);
 
         // Borrowing a newspaper
-        Resource newspaper = new Newspaper("New York Times");
+        Resource newspaper = new Newspaper("The Observer");
         student.borrowResource(newspaper);
     }
 }
