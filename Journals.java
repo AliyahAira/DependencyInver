@@ -1,7 +1,7 @@
 public class Journals implements Resource {
     private String title;
 
-    public Journal(String title) {
+    public Journals(String title) {
         this.title = title;
     }
 

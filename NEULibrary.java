@@ -3,15 +3,15 @@ public class NEULibrary {
         Student student = new Student();
 
         // Borrowing a book
-        Resource book = new Book("The Great Gatsby");
+        Resource book = new LibBook("The Great Gatsby");
         student.borrowResource(book);
 
         // Borrowing a journal
-        Resource journal = new Journal("Science Journal");
+        Resource journal = new Journals("Science Journal");
         student.borrowResource(journal);
 
         // Accessing the internet
-        Resource internet = new Internet();
+        Resource internet = new InternetAccs();
         student.borrowResource(internet);
 
         // Borrowing a newspaper
